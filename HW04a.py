@@ -52,8 +52,7 @@ if(__name__=="__main__"):
             results = call_api(gitID)
             for key,result in results.items():
                 print("Repository:",key,", Commits:",result)
-                print(results)
-            loop = False
+                loop = False
         except ValueError as e:
             print(e)
         except urllib.error.URLError as e:
