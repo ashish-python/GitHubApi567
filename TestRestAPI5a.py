@@ -2,7 +2,7 @@
 """
 author: Ashish Singh
 
-class TestRestAPI includes test cases for call_api() function imported from HW04a.py file
+class TestRestAPI includes test cases for call_api() function imported from HW05a_Mocking.py file
 
 
 """
